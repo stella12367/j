@@ -1,15 +1,24 @@
-html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>JavaScript op de voorgrond</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn JavaScript Project</title>
 </head>
 <body>
-    <button id="button">click here</button>
+
+    <h1>Stella's JavaScript Test</h1>
     
+    <!-- De knop waar jouw JavaScript naar zoekt via id="button" -->
+    <button id="button">Klik hier om de code te starten</button>
 
-    <div id="output"></div>
+    <!-- De plek waar jouw JavaScript de tekst gaat tonen via id="output" -->
+    <div id="output" style="margin-top: 20px; font-family: sans-serif; line-height: 1.6;">
+        Klik op de knop hierboven om je gegevens te laden...
+    </div>
 
-    <script src="script.js"></script>
+    <!-- Zorg dat je index.js hieronder correct wordt ingeladen met 'defer' -->
+    <script src="index.js" defer></script>
+
 </body>
 </html>
