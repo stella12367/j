@@ -26,6 +26,7 @@ document.getElementById("button").onclick = function() {
     let prijsgekocht = 16.55;
     let prijsoplossing = prijsmain - prijsgekocht;
     tekst += "in mijn bankrekening €" + prijsmain + "<br>";
+    tekst += "did is hoeveel ik moest betalen "+prijsgekocht+"<br>";
     tekst += "en dit is hoe veel ik over heb €" + prijsoplossing + "<br>";
 
     // Toon de complete tekst op het scherm
